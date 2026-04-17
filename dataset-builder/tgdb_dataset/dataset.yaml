@@ -1,0 +1,36 @@
+# YOLOv8 Dataset — TheGunDatabase.com
+# Wygenerowano automatycznie przez tgdb_scraper.py
+
+path: C:\github\glebokie-training\tgdb_dataset
+
+train: images/train
+val:   images/val
+test:  images/test
+
+nc: 6  # liczba klas
+
+names:
+  0: handgun  # 98 obrazów
+  1: rifle  # 112 obrazów
+  2: shotgun  # 50 obrazów
+  3: sniper  # 6 obrazów
+  4: smg  # 5 obrazów
+  5: other  # 0 obrazów
+
+# ─────────────────────────────────────────────
+# Trening YOLOv8 — przykładowe komendy:
+# ─────────────────────────────────────────────
+#
+# pip install ultralytics
+#
+# Detekcja obiektów (wymaga anotacji bbox):
+# yolo detect train data=dataset.yaml model=yolov8n.pt epochs=100 imgsz=640
+#
+# Klasyfikacja (działa z obecnymi labelkami):
+# yolo classify train data=dataset.yaml model=yolov8n-cls.pt epochs=100 imgsz=224
+#
+# Walidacja:
+# yolo detect val data=dataset.yaml model=runs/detect/train/weights/best.pt
+#
+# Predykcja na nowym zdjęciu:
+# yolo detect predict model=best.pt source=foto.jpg

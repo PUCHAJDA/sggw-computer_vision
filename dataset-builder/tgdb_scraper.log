@@ -1,0 +1,72 @@
+2026-04-13 12:13:04,580 [INFO] === TheGunDatabase.com Scraper START ===
+2026-04-13 12:13:04,580 [INFO] Pobieram listę kategorii: https://www.thegundatabase.com/category/handguns
+2026-04-13 12:13:04,993 [INFO]   Znaleziono 98 broni w 'handguns'
+2026-04-13 12:14:37,323 [INFO] === TheGunDatabase.com Scraper START ===
+2026-04-13 12:14:37,323 [INFO] Pobieram listę kategorii: https://www.thegundatabase.com/category/handguns
+2026-04-13 12:14:37,696 [INFO]   Znaleziono 98 broni w 'handguns'
+2026-04-13 12:18:01,608 [INFO] Kategoria 'handguns' gotowa. Łącznie: 98 broni.
+2026-04-13 12:18:01,608 [INFO] Pobieram listę kategorii: https://www.thegundatabase.com/category/rifles
+2026-04-13 12:18:02,816 [INFO] Kategoria 'handguns' gotowa. Łącznie: 98 broni.
+2026-04-13 12:18:02,818 [INFO] Pobieram listę kategorii: https://www.thegundatabase.com/category/rifles
+2026-04-13 12:18:02,982 [INFO]   Znaleziono 112 broni w 'rifles'
+2026-04-13 12:18:04,589 [INFO]   Znaleziono 112 broni w 'rifles'
+2026-04-13 12:25:23,394 [INFO] Kategoria 'rifles' gotowa. Łącznie: 210 broni.
+2026-04-13 12:25:23,394 [INFO] Pobieram listę kategorii: https://www.thegundatabase.com/category/shotguns
+2026-04-13 12:25:24,679 [INFO]   Znaleziono 50 broni w 'shotguns'
+2026-04-13 12:27:00,259 [INFO] Kategoria 'rifles' gotowa. Łącznie: 210 broni.
+2026-04-13 12:27:00,259 [INFO] Pobieram listę kategorii: https://www.thegundatabase.com/category/shotguns
+2026-04-13 12:27:01,997 [INFO]   Znaleziono 50 broni w 'shotguns'
+2026-04-13 12:27:40,116 [INFO] Kategoria 'shotguns' gotowa. Łącznie: 260 broni.
+2026-04-13 12:27:40,116 [INFO] Pobieram listę kategorii: https://www.thegundatabase.com/category/sniper-precision
+2026-04-13 12:27:41,192 [INFO]   Znaleziono 6 broni w 'sniper_precision'
+2026-04-13 12:28:01,244 [INFO] Kategoria 'sniper_precision' gotowa. Łącznie: 266 broni.
+2026-04-13 12:28:01,245 [INFO] Pobieram listę kategorii: https://www.thegundatabase.com/category/submachine-guns
+2026-04-13 12:28:02,359 [INFO]   Znaleziono 5 broni w 'submachine_guns'
+2026-04-13 12:28:23,038 [INFO] Kategoria 'submachine_guns' gotowa. Łącznie: 271 broni.
+2026-04-13 12:28:23,038 [INFO] Pobieram listę kategorii: https://www.thegundatabase.com/category/other-weapons
+2026-04-13 12:28:24,210 [INFO]   Znaleziono 0 broni w 'other_weapons'
+2026-04-13 12:28:24,224 [INFO] Kategoria 'other_weapons' gotowa. Łącznie: 271 broni.
+2026-04-13 12:28:24,224 [INFO] 
+Scraping zakończony. Łącznie 271 broni.
+2026-04-13 12:28:24,224 [INFO] Podsumowanie klas:
+2026-04-13 12:28:24,224 [INFO]   handgun     : 98
+2026-04-13 12:28:24,225 [INFO]   rifle       : 112
+2026-04-13 12:28:24,225 [INFO]   shotgun     : 50
+2026-04-13 12:28:24,225 [INFO]   sniper      : 6
+2026-04-13 12:28:24,225 [INFO]   smg         : 5
+2026-04-13 12:28:24,225 [INFO]   other       : 0
+2026-04-13 12:28:24,225 [INFO] Buduję strukturę YOLOv8...
+2026-04-13 12:28:24,236 [INFO] Obrazów z plikiem na dysku: 157
+2026-04-13 12:28:24,707 [INFO] Struktura YOLOv8 gotowa.
+2026-04-13 12:28:24,709 [INFO] Zapisano: tgdb_dataset\dataset.yaml
+2026-04-13 12:28:24,718 [INFO] Zapisano: tgdb_dataset\metadata\weapons.csv
+2026-04-13 12:28:24,720 [INFO] Zapisano: tgdb_dataset\README.md
+2026-04-13 12:28:24,721 [INFO] === WSZYSTKO GOTOWE ===
+2026-04-13 12:28:24,722 [INFO] Dataset zapisany w: C:\github\glebokie-training\tgdb_dataset
+2026-04-13 12:28:28,639 [INFO] Kategoria 'shotguns' gotowa. Łącznie: 260 broni.
+2026-04-13 12:28:28,639 [INFO] Pobieram listę kategorii: https://www.thegundatabase.com/category/sniper-precision
+2026-04-13 12:28:30,480 [INFO]   Znaleziono 6 broni w 'sniper_precision'
+2026-04-13 12:28:52,505 [INFO] Kategoria 'sniper_precision' gotowa. Łącznie: 266 broni.
+2026-04-13 12:28:52,505 [INFO] Pobieram listę kategorii: https://www.thegundatabase.com/category/submachine-guns
+2026-04-13 12:28:53,986 [INFO]   Znaleziono 5 broni w 'submachine_guns'
+2026-04-13 12:29:19,094 [INFO] Kategoria 'submachine_guns' gotowa. Łącznie: 271 broni.
+2026-04-13 12:29:19,094 [INFO] Pobieram listę kategorii: https://www.thegundatabase.com/category/other-weapons
+2026-04-13 12:29:20,795 [INFO]   Znaleziono 0 broni w 'other_weapons'
+2026-04-13 12:29:20,819 [INFO] Kategoria 'other_weapons' gotowa. Łącznie: 271 broni.
+2026-04-13 12:29:20,819 [INFO] 
+Scraping zakończony. Łącznie 271 broni.
+2026-04-13 12:29:20,820 [INFO] Podsumowanie klas:
+2026-04-13 12:29:20,820 [INFO]   handgun     : 98
+2026-04-13 12:29:20,820 [INFO]   rifle       : 112
+2026-04-13 12:29:20,820 [INFO]   shotgun     : 50
+2026-04-13 12:29:20,820 [INFO]   sniper      : 6
+2026-04-13 12:29:20,821 [INFO]   smg         : 5
+2026-04-13 12:29:20,821 [INFO]   other       : 0
+2026-04-13 12:29:20,821 [INFO] Buduję strukturę YOLOv8...
+2026-04-13 12:29:20,840 [INFO] Obrazów z plikiem na dysku: 160
+2026-04-13 12:29:21,332 [INFO] Struktura YOLOv8 gotowa.
+2026-04-13 12:29:21,334 [INFO] Zapisano: tgdb_dataset\dataset.yaml
+2026-04-13 12:29:21,344 [INFO] Zapisano: tgdb_dataset\metadata\weapons.csv
+2026-04-13 12:29:21,345 [INFO] Zapisano: tgdb_dataset\README.md
+2026-04-13 12:29:21,345 [INFO] === WSZYSTKO GOTOWE ===
+2026-04-13 12:29:21,346 [INFO] Dataset zapisany w: C:\github\glebokie-training\tgdb_dataset
