@@ -1,4 +1,4 @@
-# Weapon Detector — Detekcja broni na zdjęciach
+# Weapon Detector - Detekcja broni na zdjęciach
 
 Projekt zaliczeniowy z przedmiotu **Głębokie Uczenie**. Celem jest zbudowanie detektora broni palnej (`guns`) oraz noży (`knife`) na rzeczywistych zdjęciach z wykorzystaniem modelu **YOLOv8n** (fine-tuning pretrenowanych wag).
 
@@ -71,7 +71,7 @@ roboflow:
   url: https://universe.roboflow.com/joao-assalim-xmovq/weapon-2/dataset/2
 ```
 
-### Screenshot 1 — Konfiguracja datasetu i przykładowe anotacje
+### Screenshot 1 - Konfiguracja datasetu i przykładowe anotacje
 
 Widoczna struktura katalogów, plik `data.yaml` oraz przykładowe obrazy treningowe z bounding boxami.
 
@@ -149,7 +149,7 @@ Ewaluacja najlepszego modelu (`best.pt`) na zbiorze walidacyjnym (259 obrazów, 
 
 **Obserwacja:** Klasa `knife` została opanowana bardzo dobrze (mAP50 ≈ 0.97), natomiast `guns` jest trudniejsza — recall 0.65 oznacza, że model pomija ok. 35 % pistoletów. Może to wynikać z większej różnorodności kształtów/pozycji broni palnej oraz mniejszej liczby instancji (2 066 vs 2 524).
 
-### Screenshot 3 — Wyniki ewaluacji
+### Screenshot 3 - Wyniki ewaluacji
 
 Porównanie metryk per klasa oraz confusion matrix.
 
