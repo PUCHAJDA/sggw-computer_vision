@@ -1,0 +1,14 @@
+artifact_uri: file:c:/github/glebokie-uczenie-praca-zal/weapon-detector-notebook/runs/mlflow/305291991799524071/ff1b8f6c05ff490594cfe2246c4077eb/artifacts
+end_time: 1776410315009
+entry_point_name: ''
+experiment_id: '305291991799524071'
+lifecycle_stage: active
+run_id: ff1b8f6c05ff490594cfe2246c4077eb
+run_name: weapon_detector
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776409171095
+status: 3
+tags: []
+user_id: ppuc
