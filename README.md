@@ -1,4 +1,4 @@
-# Weapon Detector - Detekcja broni na zdjęciach
+# Weapon Detector - Detekcja broni palnej i noży
 
 Projekt zaliczeniowy z przedmiotu **Głębokie Uczenie**. Celem jest zbudowanie detektora broni palnej (`guns`) oraz noży (`knife`) na rzeczywistych zdjęciach z wykorzystaniem modelu **YOLOv8n** (fine-tuning pretrenowanych wag).
 
