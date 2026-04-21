@@ -301,7 +301,7 @@ weapon-detector-notebook/
 - **Więcej epok + lepszy harmonogram LR** — np. cosine schedule + 50–100 epok.
 - **YOLOv8-seg** — przejście na segmentację instancji dla dokładniejszej lokalizacji.
 - **Klasa „other weapon"** — dodanie trzeciej klasy (np. karabiny, maczety) poszerzyłoby użyteczność.
-- **dopacowanie dataset-buildera (scrappera) do budowania własnego datasetu
-- **dodanie w pełni funkcjonalnej aplikacji na streamlit i fastapi - w pełni działający prototyp zrobiony 
+- **Dopacowanie dataset-buildera** (scrappera) do budowania własnego datasetu
+- **Dodanie w pełni funkcjonalnej aplikacji** na streamlit i fastapi - w pełni działający prototyp zrobiony 
 
 ![Interfejs aplikacji](images/08_ui.jpg)
