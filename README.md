@@ -294,10 +294,14 @@ weapon-detector-notebook/
 4. **Generalizacja działa** — model nie generuje fałszywych detekcji na zdjęciach spoza datasetu (autobus, osoby).
 5. **Szybkość inferencji:** ≈ **2.2 ms / obraz** na GPU — model nadaje się do aplikacji czasu rzeczywistego (np. monitoring CCTV).
 
-### Możliwe kierunki rozwoju
+### Możliwe kierunki rozwoju - features
 
-- **Więcej danych broni palnej** — celowe dobranie próbek z trudnymi tłami, aby podnieść recall klasy `guns`.
+- **Więcej danych broni palnej** — celowe dobranie próbek z trudnymi tłami, aby podnieść recall klasy `guns` -- 
 - **YOLOv8s / YOLOv8m** — większy model prawdopodobnie jeszcze podniesie metryki kosztem prędkości.
 - **Więcej epok + lepszy harmonogram LR** — np. cosine schedule + 50–100 epok.
 - **YOLOv8-seg** — przejście na segmentację instancji dla dokładniejszej lokalizacji.
 - **Klasa „other weapon"** — dodanie trzeciej klasy (np. karabiny, maczety) poszerzyłoby użyteczność.
+- ** dopacowanie dataset-buildera (scrappera) do budowania własnego datasetu
+- ** dodanie w pełni funkcjonalnej aplikacji na streamlit i fastapi - w pełni działający prototyp zrobiony **
+
+![Interfejs aplikacji](images/08_ui.jpg)
